@@ -3,7 +3,7 @@ import './Book.css';
 function Book(args) {
 
     function clickBuy() {
-        args.basketManager(args.bookObj);
+        args.basketBuy(args.bookObj);
     }
 
     return (
